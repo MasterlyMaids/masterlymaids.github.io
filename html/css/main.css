@@ -3401,13 +3401,25 @@ padding: 80px 0 80px 0;
 }
 
 .home4-percentage .checkout-icon {
-    border-color: #38f731 #38f731 #38f731 #38f731;
-    border-width: 60px 180px 60px 180px;
+    height: 120px;
+    width: 300px;
+    background-color: #38f731;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    margin: 0 auto;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-.home4-percentage .col-md-3:hover .fact-icon.checkout-icon{
-	border-color: #2db728 #2db728 #2db728 #2db728;
+div.checkout-icon:hover{
+	background-color: #2db728;
 }
-
+.icon-wallet {
+    padding-top: 40px;
+}
 .home4-percentage .col-md-3:hover .fact-icon{
 	border-color: #0299a9 #0299a9 #0299a9 #0299a9;
 }
@@ -6319,11 +6331,14 @@ footer h4{
 }
 .info-footer {
 	background: #282d33;
-	padding: 30px 0px;
+	padding-top: 20px;
+    min-height: 60px;
+    max-height: 150px;
 	color: rgba(255,255,255,0.5);
 	font-weight: 300;
 	font-size: 14px;
 	text-align: center;
+    overflow: hidden;
 }
 .info-footer .ic-fo{
 	margin-right: 10px;
