@@ -347,6 +347,7 @@ p.personal-phrase i.fa-quote-left{
 .navbar-brand {
 	font-weight: 700;
 	padding: 10px 15px;
+    
 }
 .navbar-inverse {
 	background-image:none;
@@ -1202,6 +1203,14 @@ a.close-overlay.hidden {
 	background: #fff;
 }
 /************************* HOME *******************/
+.navbar-header {
+    width: 90% !important;
+    margin-left: 25px !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -160px !important;
+}
 .home {
 	background-image: url(../images/sos.png);
 	background-repeat: repeat !important;
@@ -1221,6 +1230,7 @@ a.close-overlay.hidden {
 .banner-info {
     width: 100%;
     text-align: center;
+    margin: 0;
 }
 
 .pricing {
