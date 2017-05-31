@@ -904,6 +904,42 @@ a.close-overlay.hidden {
 	margin-bottom: 40px;
 	text-transform: uppercase;
 }
+
+.panel {
+    background-image:url("../images/top_bg.jpeg");
+    background-size: cover;
+}
+
+.panel .copy {
+    width: 75%;
+    margin: 0 auto;
+    position: relative !important;
+}
+
+.panel .copylow {
+    width: 90%;
+    margin: 0 auto;
+    position: relative !important;
+}
+
+.panel .copy h1 {
+    font-family: Palatino;
+    font-size: 75px;
+    color: #fff;
+    text-align: center;
+    padding: 300px 0px 100px 0px;
+}
+.panel .copylow h1 {
+    font-family: Garamond;
+    font-size: 75px;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.panel .copylow h1 span{
+    font-family: Impact;
+
+}
 .panel.current .slide-middle-txt {
 	-webkit-animation-name: fadeInUp;
 	-moz-animation-name: fadeInUp;
@@ -1233,11 +1269,19 @@ a.close-overlay.hidden {
     margin: 0;
 }
 
+.container-slide {
+    background-color: #1a1b1c;
+}    
+
+.howtosection {
+    width: 100%;
+}
 .pricing {
     max-width: 632px;
     min-height: 700px;
     display: inline-block;
     padding: 0px 0px 0px 0px !important;
+    margin: 0 auto !important;
 }
 .howto {
     width: 100%;
@@ -6354,6 +6398,10 @@ ul.footer-menu li a{
 	color: #ccc;
 	font-size: 13px;
 	text-decoration: none;
+}
+.col-xs-4 {
+    width: 33.3333333% !important;
+    text-align: center;
 }
 
 .footer-menu a:before {
