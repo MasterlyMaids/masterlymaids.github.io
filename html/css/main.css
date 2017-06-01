@@ -347,7 +347,10 @@ p.personal-phrase i.fa-quote-left{
 .navbar-brand {
 	font-weight: 700;
 	padding: 10px 15px;
-    
+}
+.navbar-brand img {
+    max-height: 100px;
+    max-width: 100px;
 }
 .navbar-inverse {
 	background-image:none;
@@ -914,23 +917,25 @@ a.close-overlay.hidden {
     width: 75%;
     margin: 0 auto;
     position: relative !important;
+    font-family: Palatino !important;
 }
 
 .panel .copylow {
     width: 90%;
     margin: 0 auto;
     position: relative !important;
+    font-family: Garamond !important;
 }
 
 .panel .copy h1 {
-    font-family: Palatino;
+    font-family: Palatino !important;
     font-size: 75px;
     color: #fff;
     text-align: center;
     padding: 300px 0px 100px 0px;
 }
 .panel .copylow h1 {
-    font-family: Garamond;
+    font-family: Garamond !important;
     font-size: 75px;
     color: #fff;
     text-align: center;
@@ -4655,7 +4660,7 @@ to {
     PAGE ABOUT 3                                                                                                 
 *********************************************************************************************/
 .about3-top-img {
-	background-image:url('http://placehold.it/1920x1080');
+	background-image:url('../images/top_bg.jpeg');
 	background-repeat:no-repeat !important;
 	background-attachment: fixed;    
 	-webkit-background-size: cover;
@@ -4774,7 +4779,7 @@ to {
 	color: #fff;
 }
 #percentage-about3.parallax-texture {
-	padding: 80px 0 100px 0;
+/*	padding: 80px 0 100px 0;
     background-image: url('http://placehold.it/1920x1080');
     background-repeat: repeat !important;
     background-attachment: fixed;
@@ -4787,7 +4792,7 @@ to {
     background-origin: initial;
     background-clip: initial;
     background-position: center;
-    position: relative;
+    position: relative;*/
 }
 .page-header-title.p-ead-about3 {
 	margin-top: 0px;
@@ -6361,6 +6366,8 @@ footer {
     border-top: 1px solid #2e343a;   
     margin-top: 0px;
     position: relative;
+    max-height: 150px;
+    clear: both;
 }
 footer .top-footer-in {
 	padding: 80px 15px;
@@ -6383,6 +6390,7 @@ footer h4{
 	font-size: 14px;
 	text-align: center;
     overflow: hidden;
+    clear: both;
 }
 .info-footer .ic-fo{
 	margin-right: 10px;
@@ -6400,7 +6408,7 @@ ul.footer-menu li a{
 	text-decoration: none;
 }
 .col-xs-4 {
-    width: 33.3333333% !important;
+    width: 50% !important;
     text-align: center;
 }
 
