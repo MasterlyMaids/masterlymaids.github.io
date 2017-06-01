@@ -1,7 +1,21 @@
-﻿@media only screen and (max-width: 1919px)
+@media only screen and (max-width: 1920px)
+{
+.howtowrapper {
+    padding-left: 2px;
+}
+.navbar-nav.navbar-right:last-child {
+    margin-right: -550px !important;
+}
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1000px)
 {
 .pricing {
-    display: table;
+    /*display: table;*/
+    width: 33%;
+}
+.navbar-nav.navbar-right:last-child {
+    margin-right: -160px !important;
 }
 }
 
@@ -10,7 +24,9 @@
 .slide-inner-txt h3 {
     font-size: 60px;
 }
-
+.howtowrapper {
+    padding-left: 6px;
+}
 }
 @media only screen and (max-width: 1366px) 
 {
@@ -174,7 +190,10 @@ to {
 
 @media only screen and (max-width: 1000px) 
 {
-    
+.pricing {
+    display: table;
+    width: 100%;
+}    
 .infob {
     display: none!important;
 }
