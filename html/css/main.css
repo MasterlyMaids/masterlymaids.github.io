@@ -920,25 +920,25 @@ a.close-overlay.hidden {
     width: 75%;
     margin: 0 auto;
     position: relative !important;
-    font-family: Palatino !important;
+    font-family: Garamond;
 }
 
 .panel .copylow {
     width: 90%;
     margin: 0 auto;
     position: relative !important;
-    font-family: Garamond !important;
+    font-family: Garamond;
 }
 
 .panel .copy h1 {
-    font-family: Palatino !important;
+    font-family: Garamond;
     font-size: 75px;
     color: #fff;
     text-align: center;
-    padding: 300px 0px 100px 0px;
+    padding: 300px 0px 50px 0px;
 }
 .panel .copylow h1 {
-    font-family: Garamond !important;
+    font-family: Garamond;
     font-size: 75px;
     color: #fff;
     text-align: center;
@@ -1252,9 +1252,7 @@ a.close-overlay.hidden {
     margin-left: 25px !important;
 }
 
-.navbar-nav.navbar-right:last-child {
-    margin-right: -160px !important;
-}
+
 .home {
 	background-image: url(../images/sos.png);
 	background-repeat: repeat !important;
@@ -1286,6 +1284,7 @@ a.close-overlay.hidden {
 }
 .pricing {
     max-width: 632px;
+    min-width: 440px;
     min-height: 700px;
     display: inline-block;
     padding: 0px 0px 0px 0px !important;
@@ -1305,6 +1304,12 @@ a.close-overlay.hidden {
     width: 100%;
     background-color: #1a1b1c;
     overflow: hidden;
+}
+
+.middle {
+    height: 70px;
+    width: 100%;
+    clear: both;
 }
 
 .howtobr {
@@ -1330,7 +1335,7 @@ a.close-overlay.hidden {
 }
 
 .bafix {
-    min-height: 704px !important;
+    min-height: 726px !important;
 }
 
 .checkout {
