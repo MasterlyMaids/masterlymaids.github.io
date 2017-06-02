@@ -300,6 +300,11 @@ ul.scroll-menu {
 .sub-title {
 	margin-bottom: 40px;
 	font-size: 14px;
+    color:#0cc7c7;
+}
+.bookst {
+    font-size: 14px;
+    width: 100%;
 }
 .section-title span{
 	font-weight: 300;
@@ -387,7 +392,7 @@ p.personal-phrase i.fa-quote-left{
     margin-top: 10px;
 }
 .navbar-fixed-top .container {
-	margin-left: 30px;
+	margin-left: 0px;
 }
 
 ul.menu-items li.menu-item {
@@ -1309,12 +1314,17 @@ a.close-overlay.hidden {
 
 .howto {
     width: 100%;
-    min-height: 700px;
+    min-height: 900px;
     display: inline-block;
     clear: none;
     color: #dee7ef;
     background-color: #28292b;
     border: 3px solid #35373a;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .howtowrapper {
@@ -1356,11 +1366,34 @@ a.close-overlay.hidden {
 }
 
 .bafix {
-    min-height: 866px !important;
+    min-height: 900px !important;
 }
 
 .checkout {
     min-height: 320px;
+}
+.chwrap {
+    width: 75%;
+    margin: 0px auto 30px auto;
+}
+
+.about3-top-img h2 span {
+    color: #0cc7c7;
+}
+
+.about3-top-img h2 {
+    color: #0cc7c7;
+    margin-top: 40px;
+}
+
+#nafiller {
+    height: 150px;
+    width: 100%;
+    background-color: #1a1b1c;
+}
+
+.about3-top-img {
+    text-align: center;
 }
 
 .book {
@@ -3591,18 +3624,33 @@ div.checkout-icon:active{
     height:30px;
     margin-left: 5px;
     margin-bottom: 5px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 #check2 {
     width: 30px;
     height:30px;
     margin-left: 5px;
     margin-bottom: 5px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 #check3 {
     width: 30px;
     height:30px;
     margin-left: 5px;
     margin-bottom: 5px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 /*Portfolio*/
 .home4-portfolio .activegrid ul li {
