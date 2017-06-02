@@ -104,7 +104,7 @@
   });
 
   $('div.mfcheckbox').click(function(){
-    var check = document.getElementById('check2');
+    var check = document.getElementById('check3');
     if (document.getElementById('checkboxf1Input').checked) {
         check.style.display = 'inline-block';
     } 
