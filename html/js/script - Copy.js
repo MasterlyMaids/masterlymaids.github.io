@@ -63,61 +63,61 @@
   f4.change(function(){f3.prop('checked',false);});  
   
   $('div.mcheckbox').click(function(){
-    var check = document.getElementById('check1');
+    var check1 = document.getElementById('check1');
     if (document.getElementById('checkboxbr1Input').checked) {
-        check.style.display = 'inline-block';
+        check1.style.display = 'inline-block';
     } 
     else if (document.getElementById('checkboxbr2Input').checked) {
-        check.style.display = 'inline-block';
+        check1.style.display = 'inline-block';
     }
     else if (document.getElementById('checkboxbr3Input').checked) {
-        check.style.display = 'inline-block';
+        check1.style.display = 'inline-block';
     }
     else if (document.getElementById('checkboxbr4Input').checked) {
-        check.style.display = 'inline-block';
+        check1.style.display = 'inline-block';
     }
     else if (document.getElementById('checkboxbr5Input').checked) {
-        check.style.display = 'inline-block';
+        check1.style.display = 'inline-block';
     }
     else {
-      check.style.display = 'none'
+      check1.style.display = 'none'
     }
   });
 
   $('div.mbacheckbox').click(function(){
-    var check = document.getElementById('check2');
+    var check2 = document.getElementById('check2');
     if (document.getElementById('checkboxba1Input').checked) {
-        check.style.display = 'inline-block';
+        check2.style.display = 'inline-block';
     } 
     else if (document.getElementById('checkboxba2Input').checked) {
-        check.style.display = 'inline-block';
+        check2.style.display = 'inline-block';
     }
     else if (document.getElementById('checkboxba3Input').checked) {
-        check.style.display = 'inline-block';
+        check2.style.display = 'inline-block';
     }
     else if (document.getElementById('checkboxba4Input').checked) {
-        check.style.display = 'inline-block';
+        check2.style.display = 'inline-block';
     }
     else {
-      check.style.display = 'none'
+      check2.style.display = 'none'
     }
   });
 
   $('div.mfcheckbox').click(function(){
-    var check = document.getElementById('check3');
+    var check3 = document.getElementById('check3');
     if (document.getElementById('checkboxf1Input').checked) {
-        check.style.display = 'inline-block';
+        check3.style.display = 'inline-block';
     } 
     else if (document.getElementById('checkboxf2Input').checked) {
-        check.style.display = 'inline-block';
+        check3.style.display = 'inline-block';
     }
     else if (document.getElementById('checkboxf3Input').checked) {
-        check.style.display = 'inline-block';
+        check3.style.display = 'inline-block';
     }
     else if (document.getElementById('checkbof4Input').checked) {
-        check.style.display = 'inline-block';
+        check3.style.display = 'inline-block';
     }
     else {
-      check.style.display = 'none'
+      check3.style.display = 'none'
     }
   });
