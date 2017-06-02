@@ -83,3 +83,41 @@
       check.style.display = 'none'
     }
   });
+
+  $('div.mbacheckbox').click(function(){
+    var check = document.getElementById('check2');
+    if (document.getElementById('checkboxba1Input').checked) {
+        check.style.display = 'inline-block';
+    } 
+    else if (document.getElementById('checkboxba2Input').checked) {
+        check.style.display = 'inline-block';
+    }
+    else if (document.getElementById('checkboxba3Input').checked) {
+        check.style.display = 'inline-block';
+    }
+    else if (document.getElementById('checkboxba4Input').checked) {
+        check.style.display = 'inline-block';
+    }
+    else {
+      check.style.display = 'none'
+    }
+  });
+
+  $('div.mfcheckbox').click(function(){
+    var check = document.getElementById('check2');
+    if (document.getElementById('checkboxf1Input').checked) {
+        check.style.display = 'inline-block';
+    } 
+    else if (document.getElementById('checkboxf2Input').checked) {
+        check.style.display = 'inline-block';
+    }
+    else if (document.getElementById('checkboxf3Input').checked) {
+        check.style.display = 'inline-block';
+    }
+    else if (document.getElementById('checkbof4Input').checked) {
+        check.style.display = 'inline-block';
+    }
+    else {
+      check.style.display = 'none'
+    }
+  });
