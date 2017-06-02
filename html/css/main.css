@@ -3595,12 +3595,14 @@ div.checkout-icon:active{
 #check2 {
     width: 30px;
     height:30px;
-    display: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 #check3 {
     width: 30px;
     height:30px;
-    display: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 /*Portfolio*/
 .home4-portfolio .activegrid ul li {
