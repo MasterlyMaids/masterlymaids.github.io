@@ -193,6 +193,10 @@ to {
 
 @media only screen and (max-width: 1000px) 
 {
+    
+.middle {
+    display: none;
+}
 .pricing {
     display: table;
     width: 100%;
