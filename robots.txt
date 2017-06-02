@@ -1,1 +1,13 @@
 Sitemap: http://masterlymaids.com/sitemap.xml
+
+
+User-agent: *
+Disallow: /Documentation/
+Disallow: /angu_new/
+Disallow: /html/js/
+Disallow: /html/css/
+Disallow: /html/assets/
+Disallow: /html/images/
+Disallow: /html/img/
+Disallow: /html/shop/
+Disallow: /html/templates/
