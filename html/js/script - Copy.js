@@ -80,7 +80,7 @@
         check1.style.display = 'inline-block';
     }
     else {
-      check1.style.display = 'none'
+      check1.style.display = 'none';
     }
   });
 
@@ -99,7 +99,7 @@
         check2.style.display = 'inline-block';
     }
     else {
-      check2.style.display = 'none'
+      check2.style.display = 'none';
     }
   });
 
@@ -114,10 +114,10 @@
     else if (document.getElementById('checkboxf3Input').checked) {
         check3.style.display = 'inline-block';
     }
-    else if (document.getElementById('checkbof4Input').checked) {
+    else if (document.getElementById('checkboxf4Input').checked) {
         check3.style.display = 'inline-block';
     }
     else {
-      check3.style.display = 'none'
+      check3.style.display = 'none';
     }
   });
